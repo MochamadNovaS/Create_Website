@@ -1,30 +1,29 @@
 <html>
     <head>
         <title>WEB SAYA</title>
-        <link rel="stylesheet" href="style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     </head>
-    <body>
-        <div class="container">
-        <!-- NAVBAR -->
-         <div class="navbar-container">
-            <ul class="ul-navbar">
-                <li class="li-navbar">HOME</li>
-                <li class="li-navbar">ABOUT ME</li>
-                <li class="li-navbar">CONTACT ME</li>
-            </ul>
-         </div>
-        <!-- NAVBAR SELESAi -->
-        <!-- CONTENT -->
-         <div class="container-content">
-            <img src="green black.jpg" class="img-content"/>
-         </div>
-        <!-- CONTENT SELESAi -->
-        <!-- FOOTER -->
-         <div class="container-footer">
-            <h1 class="h1-footer">Terimakasih</h1>
-
-         </div>
-        <!-- FOOTER SELESAi -->
-    </div>
+    <body class="bg-gray-100">
+        <div class="container mx-auto p-4">
+            <!-- NAVBAR -->
+            <div class="navbar-container bg-white shadow-md p-4">
+                <ul class="ul-navbar flex space-x-4">
+                    <li class="li-navbar hover:text-blue-500 cursor-pointer">HOME</li>
+                    <li class="li-navbar hover:text-blue-500 cursor-pointer">ABOUT ME</li>
+                    <li class="li-navbar hover:text-red-500 cursor-pointer">CONTACT ME</li>
+                </ul>
+            </div>
+            <!-- NAVBAR SELESAI -->
+            <!-- CONTENT -->
+            <div class="container-content mt-8">
+                <img src="green black.jpg" class="img-content w-full h-auto"/>
+            </div>
+            <!-- CONTENT SELESAI -->
+            <!-- FOOTER -->
+            <div class="container-footer bg-gray-800 text-white text-center py-4 mt-8">
+                <h1 class="h1-footer text-xl">Terimakasih</h1>
+            </div>
+            <!-- FOOTER SELESAI -->
+        </div>
     </body>
 </html>
